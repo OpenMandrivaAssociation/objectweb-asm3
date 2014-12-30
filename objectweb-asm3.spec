@@ -1,8 +1,9 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           objectweb-asm3
 Version:        3.3.1
-Release:        8.1%{?dist}
+Release:        9.1
 Summary:        Java bytecode manipulation and analysis framework
+Group:          Development/Java
 License:        BSD
 URL:            http://asm.ow2.org/
 BuildArch:      noarch
@@ -31,7 +32,6 @@ This package provides %{summary}.
 %prep
 %setup -q -n asm-%{version}
 find -name *.jar -delete
-%mvn_alias :asm-all org.eclipse.jetty.orbit:org.objectweb.asm
 
 sed -i /Class-path/d archive/asm-xml.xml
 
