@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           objectweb-asm3
 Version:        3.3.1
-Release:        9.1
+Release:        9.2
 Summary:        Java bytecode manipulation and analysis framework
 Group:          Development/Java
 License:        BSD
