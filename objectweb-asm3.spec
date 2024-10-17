@@ -5,7 +5,7 @@ Release:        9.3
 Summary:        Java bytecode manipulation and analysis framework
 Group:          Development/Java
 License:        BSD
-URL:            http://asm.ow2.org/
+URL:            https://asm.ow2.org/
 BuildArch:      noarch
 
 Source0:        http://download.forge.ow2.org/asm/asm-%{version}.tar.gz
